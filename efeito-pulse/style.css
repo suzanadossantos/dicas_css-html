@@ -1,0 +1,63 @@
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.efeito{
+    background-color: black;
+    width: 400px;
+    height: 200px;
+}
+
+.pulse{
+    width: 60px;
+    height: 60px;
+    background-color: rgb(243, 34, 34);
+    border-radius: 50%;
+    text-align: center;
+    line-height: 60px;
+    font-size: 18px;
+    position: relative;
+    margin: auto;
+    padding: 5px;
+}
+
+.pulse:after, .pulse::before{
+    content: '';
+    position: absolute;
+    top: -10px;
+    bottom: -10px;
+    right: -10px;
+    left: -10px;
+    border-radius: 50%;
+    border: 1px solid rgb(223, 88, 10);
+    animation: pulse 1.5s linear infinite;
+}
+
+.pulse:after{
+    animation-delay: 4s;
+}
+
+img.phone{
+    width: 20px;
+    margin: auto;
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(.5);
+        opacity: 0;
+    }
+
+    50%{
+        transform: scale(1);
+        opacity: 1;
+    }
+
+    100%{
+        transform: scale(1.4);
+        opacity: 0;
+    }
+}
