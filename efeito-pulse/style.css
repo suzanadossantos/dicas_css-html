@@ -50,6 +50,18 @@ h1{
 img.phone{
     width: 20px;
     margin: auto;
+    text-align: center;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+p a:hover{
+    color: red;
 }
 
 @keyframes pulse{
