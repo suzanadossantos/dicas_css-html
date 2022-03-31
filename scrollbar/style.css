@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #e6dada;
+}
+
+::-webkit-scrollbar-thumb{
+    width: 6px;
+    background-color: #363636;
+    border-radius: 20px;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    margin: 20px 30px;
+    color: black;
+}
+
+.imagens{
+    margin: auto;
+    background-color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagens img{
+    width: 60vw;
+    height: 40vw;
+    text-align: center;
+    padding: 20px;
+}
