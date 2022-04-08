@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color: rgba(25, 25, 25);
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 30px;
+    color: white;
+}
+
+p.line{
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    color: rgba(255, 255, 255, .75);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+    text-align: center;
+    margin: auto;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.typing-animation{
+    animation:  blinkcursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    text-align: center;
+    color: white;
+}
+
+p a:hover{
+    color: red;
+}
+
+@keyframes typing{
+    from{
+        width: 0;
+    }
+    to{
+        width: 16em;
+    }
+}
+
+@keyframes blinkcursor{
+    from{
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+    to{
+        border-right-color: transparent;
+    }
+}
