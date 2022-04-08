@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 20px 30px;
+}
+
+.container {
+    height: 20px;
+    width: 300px;
+    background-color: rgb(7, 6, 6);
+    position: relative;
+    margin: auto;
+}
+
+.container .progress-bar{
+   position: absolute;
+   height: 100%;
+   background-color: #0fd439;
+   animation: progress-animation 5s infinite;
+}
+
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin: 40px;
+    text-align: center;
+}
+
+p a:hover{
+    color: red;
+}
+
+@keyframes progress-animation{
+    0% { 
+        width: 0%; 
+    } 
+    100% { 
+        width: 100%
+    }
+}
