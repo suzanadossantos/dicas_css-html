@@ -9,3 +9,4 @@ Este repositório foi criado para ajudar no desenvolvimento, esses conteúdos s�
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/scrollbar/scrollbar.html">Scrollbar personalizada</a></p> 
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/barra-de-progresso/barra-de-progresso.html">Barra de Progresso</a></p> 
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/digitar-na-tela/digitar-na-tela.html">Digitar na Tela</a></p> 
+<p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/digitar-na-tela/search-input.html">Search Input</a></p> 
