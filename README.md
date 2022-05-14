@@ -12,6 +12,8 @@ Este repositório foi criado para ajudar no desenvolvimento, esses conteúdos s�
 ---
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/efeito-vidro/efeito-vidro.html">Efeito de vidro</a></p> 
 
+![](https://user-images.githubusercontent.com/94690066/168447590-b5fbb8a0-e207-4f0a-b5ed-513e2a0ec091.png)
+
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/scrollbar/scrollbar.html">Scrollbar personalizada</a></p> 
 
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/barra-de-progresso/barra-de-progresso.html">Barra de Progresso</a></p> 
