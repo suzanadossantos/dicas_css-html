@@ -16,3 +16,5 @@ Este repositório foi criado para ajudar no desenvolvimento, esses conteúdos s�
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/digitar-na-tela/digitar-na-tela.html">Digitar na Tela</a></p> 
 
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/search-input/search-input.html">Search Input</a></p> 
+
+<p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/scroll-to-top/scroll-to-top.html">Scroll to Top</a></p> 
