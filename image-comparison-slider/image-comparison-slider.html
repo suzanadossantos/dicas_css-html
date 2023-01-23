@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Comparison Slider</title>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="images">
+            <div class="img-1"></div>
+            <div class="img-2"></div>
+        </div>
+        <div class="slider">
+            <div class="drag-line">
+                <span></span>
+            </div>
+            <input type="range" min="0" max="100" value="50">
+        </div>
+    </div>
+
+    <p>Ultizando as informações da <a href="https://www.instagram.com/p/CftVowpDKnF/?utm_source=ig_web_copy_link" target="_blank">publicação</a> do patalin.py</p>
+
+    <script>
+        const slider = document.querySelector(".slider input");
+        const img = document.querySelector(".images .img-2");
+        const dragLine = document.querySelector(".slider .drag-line");
+
+        slider.oninput = ()=>{
+            let sliderVal = slider.value;
+            dragLine.style.left = sliderVal + "%";
+            img.style.width = sliderVal + "%";
+        }
+    </script>
+</body>
+</html>
