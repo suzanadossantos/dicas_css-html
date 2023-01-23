@@ -18,3 +18,5 @@ Este repositório foi criado para ajudar no desenvolvimento, esses conteúdos s�
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/search-input/search-input.html">Search Input</a></p> 
 
 <p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/scroll-to-top/scroll-to-top.html">Scroll to Top</a></p> 
+
+<p> ➡️ <a href="https://suzanadossantos.github.io/dicas_css-html/image-comparison-slider/image-comparison-slider.html">Image Comparison Slider</a></p> 
